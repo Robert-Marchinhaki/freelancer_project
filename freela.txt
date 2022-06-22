@@ -1,0 +1,31 @@
+1° dar boas vindas e ter um menu de navegação
+	menu deve conter:
+		- Quiz (jogo)
+		- teste do sintomas
+		- orientação para tratamentos
+		- sair do programa
+
+2° Programa deve ser feito em POO
+	- (__init__): nome, idade
+	- citar o nome e idade no inicio de todas funçoes
+
+3° Criar um função do quiz de perguntas e respostas
+	if resposta_correta:
+		pontos += 1
+	elif acertou_todas_respostas:
+		print("parabens")
+	else:
+		print("esclareça a respeito das medidas preventivas e formas de tratamentos)
+
+4° funcao para inserção do sintomas
+	- verificar se são sintomas do covid-19
+
+	- if sintoma == 1:
+		print("Você possui um dos sintomas, se cuide!")
+	- if sintoma == 2:
+		print("Você possui dois sintomas do COVID, por favor, fique em casa e cuide de si mesmo)
+	- if sintoma >= 3:
+		print("Você possui 3 ou mais sintomas, por favor, faça um teste de detecção do COVID-19")
+
+5° criar uma função que forneça orientações para o tratamento do COVID-19.
+
